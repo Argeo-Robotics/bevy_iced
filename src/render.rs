@@ -18,7 +18,7 @@ use crate::{DidDraw, IcedProps, IcedResource, IcedSettings};
 #[derive(Clone, Hash, Debug, Eq, PartialEq, RenderLabel)]
 pub struct IcedPass;
 
-pub const TEXTURE_FMT: TextureFormat = TextureFormat::Rgba8UnormSrgb;
+pub const TEXTURE_FMT: TextureFormat = TextureFormat::Bgra8UnormSrgb;
 
 #[derive(Resource, Deref, DerefMut, Clone)]
 pub struct IcedViewport(pub Viewport);

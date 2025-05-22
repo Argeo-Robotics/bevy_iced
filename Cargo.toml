@@ -16,15 +16,15 @@ tokio = ["dep:tokio", "dep:async-compat"]
 smol = ["dep:async-io"]
 
 [dependencies]
-bevy_app = "0.16.0-rc.3"
-bevy_derive = "0.16.0-rc.3"
-bevy_ecs = "0.16.0-rc.3"
-bevy_input = "0.16.0-rc.3"
-bevy_math = "0.16.0-rc.3"
-bevy_render = "0.16.0-rc.3"
-bevy_tasks = "0.16.0-rc.3"
-bevy_window = "0.16.0-rc.3"
-bevy_winit = "0.16.0-rc.3"
+bevy_app = "0.16"
+bevy_derive = "0.16"
+bevy_ecs = "0.16"
+bevy_input = "0.16"
+bevy_math = "0.16"
+bevy_render = "0.16"
+bevy_tasks = "0.16"
+bevy_window = "0.16"
+bevy_winit = "0.16"
 
 iced_core = { git = "https://github.com/Argeo-Robotics/iced.git", rev = "943d6b1a93eb73ca69365e5009bb91b281785992" }
 iced_graphics = { git = "https://github.com/Argeo-Robotics/iced.git", rev = "943d6b1a93eb73ca69365e5009bb91b281785992" }
@@ -45,7 +45,7 @@ gloo-timers = { version = "0.3.0", features = ["futures"] }
 
 
 [dev-dependencies]
-bevy = { version = "0.16.0-rc.1", default-features = false, features = [
+bevy = { version = "0.16", default-features = false, features = [
     "async_executor",
     "bevy_core_pipeline",
     "bevy_sprite",
